@@ -163,21 +163,21 @@ export default function Home({ setPage, onSelectProject }: SharedPageProps) {
               number="02"
               title="Goyanka Residence, Hinganghat"
               text="Compound wall working drawing with setting-out plan, elevation, and 3D perspective visualisations."
-              image={import.meta.env.BASE_URL + "/projects/goyanka-residence/compound-wall-3d-view.png"}
+              image="/projects/goyanka-residence/compound-wall-3d-view.png"
               onClick={() => openProject("goyanka-residence")}
             />
             <ProjectCard
               number="03"
               title="Jayade Residence, Amravati"
               text="Interior millwork details (master bed and side table), TV unit, and reflected ceiling electrical layout."
-              image={import.meta.env.BASE_URL + "/projects/jayade-residence/master-bed-details.png"}
+              image="/projects/jayade-residence/master-bed-details.png"
               onClick={() => openProject("jayade-residence")}
             />
             <ProjectCard
               number="04"
               title="Dr. Thorat Residence, Nagpur"
               text="Staircase structural sections with reinforcement annotations and ground-floor brickwork setting-out."
-              image={import.meta.env.BASE_URL + "/projects/thorat-residence/staircase-structural-details.png"}
+              image="/projects/thorat-residence/staircase-structural-details.png"
               onClick={() => openProject("thorat-residence")}
             />
           </div>

@@ -16,7 +16,7 @@ export default function About({ setPage }: SharedPageProps) {
           <div className="lg:col-span-5">
             <div className="overflow-hidden aspect-[.82] bg-stone-200">
               <img
-                src={import.meta.env.BASE_URL + images.portrait.substring(1)}
+                src="/demo.jpeg"
                 alt="Prasham Dhoke"
                 className="h-full w-full object-cover object-top grayscale transition duration-700 hover:grayscale-0"
               />

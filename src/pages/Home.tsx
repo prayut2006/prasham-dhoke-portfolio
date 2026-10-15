@@ -177,7 +177,7 @@ export default function Home({ setPage, onSelectProject }: SharedPageProps) {
               number="04"
               title="Dr. Thorat Residence, Nagpur"
               text="Staircase structural sections with reinforcement annotations and ground-floor brickwork setting-out."
-              image="/projects/thorat-residence/staircase-structural-details.png"
+              image={import.meta.env.BASE_URL + "/projects/thorat-residence/staircase-structural-details.png"}
               onClick={() => openProject("thorat-residence")}
             />
           </div>

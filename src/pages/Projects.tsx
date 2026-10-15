@@ -88,7 +88,7 @@ export default function Projects({
             </div>
             <div className="relative flex max-h-[80vh] w-full max-w-6xl items-center justify-center overflow-auto rounded bg-stone-950 p-2">
               <img
-                src={activeDrawing.image}
+                src={import.meta.env.BASE_URL + activeDrawing.image.substring(1)}
                 alt={activeDrawing.sheetTitle}
                 className="max-h-[76vh] w-auto max-w-full object-contain"
               />
@@ -271,7 +271,7 @@ export default function Projects({
                         className="group relative mt-6 block w-full overflow-hidden border border-border bg-stone-100 text-left transition hover:border-foreground"
                       >
                         <img
-                          src={drawing.image}
+                          src={import.meta.env.BASE_URL + drawing.image.substring(1)}
                           alt={drawing.sheetTitle}
                           className="h-auto w-full object-contain transition duration-500 group-hover:scale-[1.01]"
                           loading="lazy"
@@ -373,7 +373,7 @@ export default function Projects({
                     {/* Thumbnail */}
                     <div className="overflow-hidden border border-border bg-stone-100 aspect-[1.35]">
                       <img
-                        src={project.thumbnail}
+                        src={import.meta.env.BASE_URL + project.thumbnail.substring(1)}
                         alt={project.title}
                         className="h-full w-full object-cover grayscale transition duration-700 group-hover:scale-[1.025] group-hover:grayscale-0"
                         loading="lazy"

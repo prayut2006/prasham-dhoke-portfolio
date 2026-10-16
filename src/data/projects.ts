@@ -281,18 +281,17 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Kabra Residence",
     subtitle: "Studio Adroit Architects",
     category: "architecture",
-    location: "Location not specified on sheet",
+    location: "Nagpur, Maharashtra, India",
     thumbnail: "/projects/kabra-residence/roof-slab-electrical-sleeves.png",
     summary:
       "Technical drawing of electrical sleeves through structural beams and cast-in-slab conduit layouts.",
     description: [
       "Technical MEP-structural coordination drawing for the Kabra Residence, prepared at Studio Adroit Architects.",
       "The sheet details the plan at the ground-floor roof slab, specifying the exact positions and routes of electrical conduit sleeves through structural concrete beams and slab ceiling light points prior to casting.",
-      "Location note: Kept strictly as printed on the drawing sheet without assumed location data.",
     ],
     meta: [
       ["Project", "Kabra Residence"],
-      ["Location", "Not specified on sheet"],
+      ["Location", "Nagpur, Maharashtra, India"],
       ["Studio", "Studio Adroit Architects"],
       ["Attribution", "Drawn by: PD (Prasham Dhoke)"],
       ["Checked", "PK (Prajakt Karmarkar)"],
@@ -319,7 +318,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Mundhada Residence",
     subtitle: "Studio Adroit Architects · Client: Mr. Mundhada",
     category: "architecture",
-    location: "Location not specified on sheet",
+    location: "Nagpur, Maharashtra, India",
     thumbnail:
       "/projects/mundhada-residence/exterior-architectural-renders.png",
     summary:
@@ -327,11 +326,10 @@ export const portfolioProjects: PortfolioProject[] = [
     description: [
       "Architectural 3D perspective visualisations for the Mundhada Residence, completed during tenure at Studio Adroit Architects.",
       "The render sheet features daylight exterior views illustrating the contemporary residential façade treatment, balcony proportions, material palette, and fenestration detailing.",
-      "Location note: Kept strictly as printed on the drawing sheet without assumed location data.",
     ],
     meta: [
       ["Client", "Mr. Mundhada"],
-      ["Location", "Not specified on sheet"],
+      ["Location", "Nagpur, Maharashtra, India"],
       ["Studio", "Studio Adroit Architects"],
       ["Attribution", "Drawn by: PD (Prasham Dhoke)"],
       ["Source Evidence", "Page 14 of 9th Sem Architectural Work Portfolio"],
